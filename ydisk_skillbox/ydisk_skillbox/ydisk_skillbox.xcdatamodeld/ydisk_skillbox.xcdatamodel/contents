@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FileItem" representedClassName="FileItem" syncable="YES" codeGenerationType="category">
+        <attribute name="data" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FolderItem" representedClassName="FolderItem" syncable="YES" codeGenerationType="category">
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TableViewCellItem" inverseName="folder" inverseEntity="TableViewCellItem"/>
+    </entity>
+    <entity name="TableViewCellItem" representedClassName="TableViewCellItem" syncable="YES" codeGenerationType="category">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="mediaType" optional="YES" attributeType="String"/>
+        <attribute name="mimeType" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="preview" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="folder" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FolderItem" inverseName="items" inverseEntity="FolderItem"/>
+    </entity>
+</model>

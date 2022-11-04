@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  ydisk_skillbox
+
+  Created by Никита Пивоваров on 06.10.2022.
+  
+*/
+
+"Отсутствуте подключение к интернету" = "No internet connection";
+"У вас пока нет файлов" = "No files found";
+"Обновить" = "Refresh";
+"Все файлы" = "All files";
+"Загрузка..." = "Loading...";
+"Файл не поддерживается" = "File not supported";
+"Удалить" = "Delete";
+"Вы уверены, что хотите удалить файл?" = "Are you sure you want to delete this file?";
+"Да" = "Yes";
+"Ошибка" = "Error";
+"Не удалось удалить файл" = "Unable to delete this file";
+"Ок" = "Ok";
+"Нет" = "No";
+"Переименовать" = "Rename";
+"Не удалось переименовать файл" = "Unable to rename the file";
+"Отмена" = "Cancel";
+"Поделиться" = "Share";
+"Поедлиться файлом" = "Share the file";
+"Поделиться ссылкой" = "Share the link";
+"Файл станет публичным, хотите продолжить?" = "File will become public, do you want to continue?";
+"Последние" = "Recent";
+"Вы уверены, что хотите убрать публикацию?" = "Are you sure you want to remove the publication?";
+"Опубликованные файлы" = "Publicated files";
+"У вас пока нет\nопубликованных файлов" = "No plublished files found";
+"гб - занято" = "gb - used";
+"гб - свободно" = "gb - free";
+"гб" = "gb";
+"Профиль" = "Profile";
+"Выйти" = "Log out";
+"Выход" = "Log out";
+"Вы уверены, что хотите выйти?" = "Ate you sure you want to log out?";
+"Теперь все ваши\nдокументы в одном месте" = "All your documents in one place";
+"Доступ к файлам без\nинтернета" = "Access files without internet";
+"Делитесь вашими файлами\nс другими" = "Share your files with others";
+"Далее" = "Next";
+"бт" = "bt";
+"кб" = "kb";
+"мб" = "mb";

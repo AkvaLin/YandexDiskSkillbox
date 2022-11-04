@@ -1,0 +1,34 @@
+PODS:
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - ImageScrollView (1.9.3)
+  - JGProgressHUD (2.2)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftyButton (0.8.2)
+
+DEPENDENCIES:
+  - Charts
+  - ImageScrollView
+  - JGProgressHUD
+  - SwiftyButton
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - ImageScrollView
+    - JGProgressHUD
+    - SwiftAlgorithms
+    - SwiftyButton
+
+SPEC CHECKSUMS:
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  ImageScrollView: d3ce8371e0d44299b2b638410db45387e18aa83f
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftyButton: 5b0ef314e9cf61cf8a83e456ddd1ea1f53f30598
+
+PODFILE CHECKSUM: f3b6840fe0b5e9005bc4717f124eff4adfec3cef
+
+COCOAPODS: 1.11.2
